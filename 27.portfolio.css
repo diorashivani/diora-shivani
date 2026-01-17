@@ -104,8 +104,8 @@ nav a.active::after {
 .hero::after {
   content: "";
   position: absolute;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   bottom: -150px;
@@ -137,7 +137,7 @@ nav a.active::after {
 }
 
 .hero-content {
-  color: white;
+  color: black;
 }
 
 .hero-content h1 {
@@ -651,4 +651,5 @@ footer {
     display: none;
   }
 }
+
 
