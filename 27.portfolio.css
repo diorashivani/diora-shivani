@@ -80,7 +80,7 @@ nav a.active::after {
 
 /* Hero Section */
 .hero {
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   background: linear-gradient(135deg, #1c4d8d 0%, #3f9aae 100%);
@@ -651,3 +651,4 @@ footer {
     display: none;
   }
 }
+
