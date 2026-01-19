@@ -141,9 +141,9 @@ nav a.active::after {
 }
 
 .hero-content h1 {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 20px;
-  padding-top: 80px
+  padding-top: 100px
   animation: fadeInUp 1s;
 }
 
@@ -652,6 +652,7 @@ footer {
     display: none;
   }
 }
+
 
 
 
