@@ -20,9 +20,9 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #77a4ce;
+  background: white;
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 20px rgb(100,162,179);
   z-index: 1000;
   transition: all 0.3s;
 }
@@ -188,24 +188,24 @@ nav a.active::after {
 }
 
 .btn-primary {
-  background-color: white;
+  background-color: black;
   color: #3f9dc9;
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 30px black;
 }
 
 .btn-secondary {
-  background-color: transparent;
-  color: white;
-  border: 2px solid white;
+  background-color: black;
+  color: #3f9dc9;
+  border: 2px solid black;
 }
 
 .btn-secondary:hover {
-  background-color: white;
-  color: #3f9dc9;
+   transform: translateY(-3px);
+  box-shadow: 0 10px 30px black;
 }
 
 /* Hero Image */
@@ -283,7 +283,7 @@ nav a.active::after {
 
 .about-text h3 {
   font-size: 32px;
-  color: #2c3e50;
+  color: #black;
   margin-bottom: 25px;
 }
 
@@ -651,5 +651,6 @@ footer {
     display: none;
   }
 }
+
 
 
